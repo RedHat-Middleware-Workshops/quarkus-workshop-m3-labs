@@ -1,7 +1,6 @@
 package org.acme.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.transaction.Transactional;
