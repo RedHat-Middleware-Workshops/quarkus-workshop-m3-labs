@@ -16,7 +16,7 @@ sleep 30
 
 oc project $USERXX-project
 
-sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-customers-service.sh
+sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-vets-service.sh
 sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-customers-service.sh
 sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-visits-service.sh
 sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-petclinic-web-v2.sh
