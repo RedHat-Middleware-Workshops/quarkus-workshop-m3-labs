@@ -10,7 +10,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
-import javax.validation.constraints.NotEmpty;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
@@ -33,7 +32,6 @@ public class Visit extends PanacheEntityBase {
     @Column(name = "visit_date")
 	public LocalDate date;
 
-	@NotEmpty
 	public String description;
 
 	public Visit() {

@@ -1,9 +1,6 @@
 package org.acme.dto;
 
 import java.time.LocalDate;
-
-import javax.validation.constraints.Size;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class PetRequest {
@@ -13,7 +10,6 @@ public class PetRequest {
     @JsonFormat(pattern = "yyyy-MM-dd")
     public LocalDate birthDate;
 
-    @Size(min = 1)
     public String name;
 
     public int typeId;
