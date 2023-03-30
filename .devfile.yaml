@@ -14,7 +14,6 @@ components:
           targetPort: 8081
         - exposure: public
           name: quarkus-webpage
-          path: /q/dev
           protocol: http
           targetPort: 8080
         - exposure: none
