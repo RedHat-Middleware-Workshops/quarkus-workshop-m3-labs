@@ -9,11 +9,11 @@ components:
       cpuRequest: 500m
       endpoints:
         - exposure: public
-          name: index-webpage
+          name: spring-webpage
           protocol: http
-          targetPort: 8080
+          targetPort: 8081
         - exposure: public
-          name: quarkus-devui
+          name: quarkus-webpage
           path: /q/dev
           protocol: http
           targetPort: 8080
@@ -21,10 +21,6 @@ components:
           name: quarkus-debug
           protocol: tcp
           targetPort: 5005
-        - exposure: none
-          name: test-endpoint
-          protocol: tcp
-          targetPort: 8081
       env:
         - value: /home/jboss/.m2
           name: MAVEN_CONFIG
