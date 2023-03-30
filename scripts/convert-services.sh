@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -R ${CHE_PROJECTS_ROOT}/quarkus-workshop-m3-labs/scripts/solution/src ${CHE_PROJECTS_ROOT}/quarkus-workshop-m3-labs/quarkus-petclinic/
+cp -R ${PROJECT_SOURCE}/scripts/solution/src ${PROJECT_SOURCE}/quarkus-petclinic/

@@ -12,9 +12,9 @@ echo Your username is $USERXX
 
 oc project $USERXX-project
 
-sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-customers-service.sh
-sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-visits-service.sh
-sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-petclinic-web-v2.sh
+sh ${PROJECT_SOURCE}/scripts/deploy-customers-service.sh
+sh ${PROJECT_SOURCE}/scripts/deploy-visits-service.sh
+sh ${PROJECT_SOURCE}/scripts/deploy-petclinic-web-v2.sh
 
 oc rollout status -w dc/customers-service &&
   oc rollout status -w dc/visits-service &&
