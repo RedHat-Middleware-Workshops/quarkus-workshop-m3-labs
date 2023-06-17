@@ -3,3 +3,5 @@
 This is the source code for the https://github.com/RedHat-Middleware-Workshops/quarkus-workshop-m3/[Quarkus Workshop Module 3].
 
 This workshop focuses on https://quarkus.io[Quarkus], supersonic, subatomic container-native Java. The workshop uses https://eclipse.org/che[Eclipse Che] to develop Quarkus apps and deploy them to the Kubernetes cluster (based on OpenShift), and covers several other developer topics.
+
+Red Hat OpenShift version: 4.13
