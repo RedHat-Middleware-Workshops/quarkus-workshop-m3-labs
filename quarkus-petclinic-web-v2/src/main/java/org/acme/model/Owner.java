@@ -2,8 +2,8 @@ package org.acme.model;
 
 import java.util.List;
 
-import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Digits;
+import jakarta.validation.constraints.NotEmpty;
 
 public class Owner  {
 

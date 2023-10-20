@@ -2,9 +2,9 @@ package org.acme.model;
 
 import java.util.List;
 
-import javax.persistence.Cacheable;
-import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
+import jakarta.persistence.Cacheable;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

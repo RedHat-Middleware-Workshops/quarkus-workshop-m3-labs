@@ -2,8 +2,8 @@ package org.acme.service;
 
 import java.util.List;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.transaction.Transactional;
 
 import org.acme.model.Visit;
 import org.jboss.logging.Logger;

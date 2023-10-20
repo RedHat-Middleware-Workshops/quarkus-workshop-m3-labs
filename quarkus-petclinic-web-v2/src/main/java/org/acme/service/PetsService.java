@@ -3,8 +3,8 @@ package org.acme.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 import org.acme.dto.PetDetails;
 import org.acme.dto.PetRequest;

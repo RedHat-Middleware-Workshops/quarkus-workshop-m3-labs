@@ -1,7 +1,7 @@
 package org.acme.model;
 
 import java.time.LocalDate;
-import javax.ws.rs.FormParam;
+import jakarta.ws.rs.FormParam;
 
 public class VisitForm {
 

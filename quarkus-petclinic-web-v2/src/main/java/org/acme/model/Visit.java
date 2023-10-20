@@ -2,7 +2,7 @@ package org.acme.model;
 
 import java.time.LocalDate;
 
-import javax.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
