@@ -1,6 +1,6 @@
 package org.acme.model;
 
-import javax.ws.rs.FormParam;
+import jakarta.ws.rs.FormParam;
 
 public class OwnerForm {
 
