@@ -51,7 +51,7 @@ commands:
     exec:
       label: 02. Start Live Coding
       component: quarkus-tools
-      commandLine: mvn clean quarkus:dev -Dquarkus.http.host=0.0.0.0 -Dquarkus.analytics.disabled=false
+      commandLine: mvn clean quarkus:dev -Dquarkus.http.host=0.0.0.0 -Dquarkus.analytics.disabled=true
   - id: 03-package-app
     exec:
       label: 03. Package App for OpenShift
