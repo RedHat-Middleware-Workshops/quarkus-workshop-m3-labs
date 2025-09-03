@@ -6,7 +6,7 @@ oc delete all -l app=customers-database
 
 oc new-app -e POSTGRESQL_USER=customers \
   -e POSTGRESQL_PASSWORD=mysecretpassword \
-  -e POSTGRESQL_DATABASE=customers openshift/postgresql:10-el8 \
+  -e POSTGRESQL_DATABASE=customers openshift/postgresql:12-el8 \
   --name=customers-database
 
 mvn clean package -DskipTests -f ${PROJECT_SOURCE}/quarkus-petclinic-customers-service
