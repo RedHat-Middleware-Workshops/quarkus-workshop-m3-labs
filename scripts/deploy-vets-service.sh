@@ -4,7 +4,7 @@ echo Deploy vets-service........
 
 oc delete all -l app=vets-database
 
-oc new-app openshift/postgresql:12-el8 \
+oc new-app openshift/postgresql:15-el8 \
             --name=vets-database \
             -e POSTGRESQL_USER=vets \
             -e POSTGRESQL_PASSWORD=mysecretpassword \
